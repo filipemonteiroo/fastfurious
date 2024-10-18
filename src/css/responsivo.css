@@ -1,0 +1,77 @@
+@media(max-width:750px){
+    .pokedevs{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .cartao-pokedev{
+        max-width: 300px;
+    }
+    
+    .cartao-pokedev .cartao-informacoes{
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    .cartao-pokedev .cartao-informacoes h3 {
+        font-size: 16px;
+    }
+
+    .listagem {
+        max-width:  360px;
+    }
+
+    .listagem .pokedev {
+        width: 45%;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-bottom: 0;
+    }
+
+    .listagem ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+        gap: 8px;
+    }
+
+    .nissanr34 {
+        width: 80%;
+        transform: translateY(-11%);
+        margin-top: -5px;
+    }
+    
+    .car-image {
+        margin-left: -3%;
+    }
+
+    .pisca-esquerdo {
+        top: 138px; 
+        left: 90px; 
+    }
+    
+    .pisca-direito {
+        top: 138px; 
+        right: 24.5px; 
+    }
+
+    .otica-esquerda {
+        top: 140px; 
+        left: 113px; 
+    }
+    
+    .otica-direita {
+        top: 138px; 
+        left: 198px;
+    }
+
+    .flag {
+        width: 30px;
+        float: left;
+        position: relative;
+        margin-left: 95%;
+        margin-top: -12.5%;
+    }
+    
+}
